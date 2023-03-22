@@ -52,7 +52,7 @@ public class StatsService {
         int average = averageAmount(sales);
         int monthOver = 0;
         for (int i = 0; i < sales.length; i++) {
-            if (sales[i] < average) {
+            if (sales[i] > average) {
                 monthOver++;
             }
         }
