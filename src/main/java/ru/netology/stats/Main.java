@@ -10,19 +10,19 @@ public class Main {
         System.out.print("Сумма продаж" + ' ' + summary + ".");
 
         int averAmount = service.averageAmount(sales);
-        System.out.print("Средняя сумма продаж в месяц" +  ' ' + averAmount + ".");
+        System.out.print("Средняя сумма продаж в месяц" + ' ' + averAmount + ".");
 
         int monthMax = service.monthMaxSales(sales);
-        System.out.print("Номер месяца c максимальными продажами" +  ' ' + monthMax + ".");
+        System.out.print("Номер месяца c максимальными продажами" + ' ' + monthMax + ".");
 
         int monthMin = service.monthMinSales(sales);
-        System.out.print("Номер месяца c минимальными продажами" +  ' ' + monthMin + ".");
+        System.out.print("Номер месяца c минимальными продажами" + ' ' + monthMin + ".");
 
         int monthBelow = service.monthBelowAverage(sales);
-        System.out.print("Количество месяцев c продажами ниже среднего" +  ' ' + monthBelow + ".");
+        System.out.print("Количество месяцев c продажами ниже среднего" + ' ' + monthBelow + ".");
 
         int monthOver = service.monthOverAverage(sales);
-        System.out.print("Количество месяцев c продажами выше среднего" +  ' ' + monthOver + ".");
+        System.out.print("Количество месяцев c продажами выше среднего" + ' ' + monthOver + ".");
     }
 }
 
